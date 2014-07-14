@@ -1,3 +1,4 @@
-name: Booktree Alternatives
+baseurl: "http://booktree.github.io/alternatives"
 markdown: kramdown
+name: Booktree Alternatives
 pygments: true

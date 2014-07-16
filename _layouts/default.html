@@ -9,9 +9,12 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <!-- dataTables -->
-    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"/>
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js" ></script>
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.0/css/jquery.dataTables.css"/>
+    <script src="http://cdn.datatables.net/1.10.0/js/jquery.dataTables.js" ></script>
+    <link rel="stylesheet" href="http://cdn.datatables.net/colreorder/1.1.1/css/dataTables.colReorder.css"/>
     <script src="http://cdn.datatables.net/colreorder/1.1.1/js/dataTables.colReorder.min.js" ></script>
+    <link rel="stylesheet" href="http://cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.css"/>
+    <script src="http://cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.js" ></script>
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
     <!-- Custom CSS -->
@@ -28,7 +31,7 @@
         "bFilter": false,
         "bInfo": false,
         "bPaginate": false,
-        dom: 'Rlfrtip'
+        "dom": "Rlfrtip"
       })
     </script>
   </body>

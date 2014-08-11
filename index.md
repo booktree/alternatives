@@ -100,6 +100,8 @@ Notes:
 
 Screenshots at: <https://github.com/booktree/files/tree/master/beegit-screenshots>
 
+Has started hacking marked / preprocessing things with the addition of custom attributes as `# header {#id .class}`.
+
 ## GitBook
 
 Uses GitHub for web interface.

@@ -9,13 +9,13 @@ You can drag columns around on the header to reposition them.
 |--------------------------------|-------------------------------|-------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------|-----------------------|------------|------------------------------------------------------|----------------------------------------------------|-------|-----------------------------------------------------------------------------|---------|------------|------------|---------------------------------|--------------------------|
 | Open source                    |                               | X                             |                                                                            |                                                              | (23)                          | X                     |            |                                                      |                                                    |       |                                                                             |         | X          | X          |                                 |                          |
 | Technology stack (13)          | Git, Rails, Redcarpet, Gollum | Git, Rails, Redcarpet, Gollum | [GitLab](https://twitter.com/madebyloren/status/468917323588698112), Prose | GitLab, [HTMLBook](https://github.com/oreillymedia/HTMLBook) | Node.js, Marked fork, Calibre | Node.js               | ?          | [Git](https://www.authorea.com/aboutus), Rails       | NodeGit, Express, (15)                             | ?     | ?                                                                           | ?       | Python     | PHP        | ?                               | ?                        |
+| Looks good (30)                | X                             | l                             | X                                                                          | X                                                            | X                             | X                     | X          | l                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Full feature public (4)        | X                             | X (11)                        | X                                                                          | 30 day trial                                                 | X                             |                       | ?          | X                                                    | X                                                  | X     | ?                                                                           | ?       | ?          | ?          | X                               | ?                        |
 | Supports all browsers (1)      | X                             | X                             | X                                                                          | X                                                            | X                             | X                     | ?          | X                                                    | X                                                  | X     |                                                                             | ?       | ?          | ?          | X                               | Only Chrome for editing. |
 | Public access (25)             | X                             | X                             | X                                                                          |                                                              | X                             | X                     | ?          | X                                                    | X                                                  | (3)   | ?                                                                           | ?       | ?          | ?          | X                               | ?                        |
 | Meaningful URLs (2)            | X                             | X                             | X                                                                          | X                                                            | X                             | ?                     | ?          |                                                      |                                                    |       | (6)                                                                         | ?       | ?          | ?          | ?                               | ?                        |
 | Project metrics (17)           | X                             | ?                             | X                                                                          | ?                                                            | X                             |                       | ?          | ?                                                    |                                                    | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
 | User metrics (18)              |                               | ?                             |                                                                            | ?                                                            |                               |                       | ?          | ?                                                    |                                                    | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
-| No local install required (24) | X                             | X                             | X                                                                          | X                                                            |                               | X                     | X          | X                                                    | X                                                  | X     | X                                                                           | X       | X          | X          | X                               | ?                        |
 | Output sale                    |                               |                               |                                                                            | ?                                                            | X                             |                       |            |                                                      |                                                    |       | ?                                                                           | X       |            |            |                                 | ?                        |
 | Math support                   | ?                             | ?                             | ?                                                                          | ?                                                            | ?                             | ?                     | ?          | X                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | limited                         | ?                        |
 | Anyone can create content (19) | X                             | X                             | X                                                                          | X                                                            | X                             | X                     | X          | X                                                    | X                                                  | X     | X                                                                           | X       | X          | X          | X                               | Request needed.          |
@@ -28,40 +28,44 @@ You can drag columns around on the header to reposition them.
 | **Versioning**                 |                               |                               |                                                                            |                                                              |                               |                       |            |                                                      |                                                    |       |                                                                             |         |            |            |                                 | ?                        |
 | Issue tracker                  | X                             | X                             | X                                                                          | ?                                                            |                               | ?                     | ?          | Comments, but no real tracker.                       |                                                    | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
 | Version diff                   | X                             | X                             | X                                                                          | ?                                                            |                               | ?                     | ?          | X                                                    | only previous                                      | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
-| Merge request with diff        | X                             |                               | X                                                                          | X                                                            |                               | ?                     | ?          |                                                      | ?                                                  | ?     |                                                                             | ?       | ?          | ?          | inline                          | ?                        |
+| Merge request with diff        | X                             | X                             | X                                                                          | X                                                            |                               | ?                     | ?          | [W](https://www.authorea.com/issues/18)              | ?                                                  | ?     |                                                                             | ?       | ?          | ?          | inline                          | ?                        |
 | Rendered HTML diff (26)        | X                             |                               | X                                                                          | X                                                            | ?                             | ?                     | ?          | ?                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Resolve merge conflicts        |                               | [a][gl-resolve]               | X                                                                          | ?                                                            |                               | ?                     | ?          |                                                      | ?                                                  | ?     |                                                                             | ?       | ?          | ?          |                                 | ?                        |
 | Reset to version               | X                             | X                             | ?                                                                          | ?                                                            |                               | ?                     | ?          | X                                                    |                                                    | X     | X                                                                           | ?       | ?          | ?          | X                               | ?                        |
 | Commit message                 | X                             |                               | X                                                                          |                                                              |                               | ?                     | ?          | X (but well hidden)                                  | X                                                  |       | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
 | Branches                       | X                             | X                             | (5)                                                                        | X                                                            |                               |                       | ?          |                                                      |                                                    | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
 | **Web editor**                 |                               |                               |                                                                            |                                                              | (local)                       |                       |            |                                                      |                                                    |       |                                                                             |         |            |            |                                 | ?                        |
+| No WYSIWYG (14)                | X                             | ?                             | X                                                                          |                                                              | X                             | X                     | ?          | ?                                                    | X                                                  | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
+| Side by side editor preview    |                               | [a][gl-side]                  |                                                                            |                                                              | X                             | X                     | X          | [W](https://www.authorea.com/issues/270)             | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | HTML preview as you type       |                               |                               |                                                                            |                                                              | X                             | ?                     | ?          |                                                      | X                                                  |       | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Forward search                 |                               |                               |                                                                            |                                                              | X                             | ?                     | ?          | ?                                                    | X Limited accuracy                                 | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Backwards search               |                               |                               |                                                                            |                                                              | X                             | ?                     | ?          | ?                                                    | X Limited accuracy                                 | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Git diff in editor             | ?                             | X (12)                        | X (8)                                                                      |                                                              |                               | ?                     | ?          |                                                      |                                                    | ?     |                                                                             | ?       | ?          | ?          | ?                               | ?                        |
 | Multi file commit (21)         |                               |                               |                                                                            |                                                              | ?                             | ?                     | ?          |                                                      | X (16)                                             | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Drag and drop chapter order    |                               | ?                             | X                                                                          |                                                              | X                             | ?                     | ?          | ?                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
-| No WYSIWYG (14)                | X                             | ?                             | X                                                                          |                                                              | X                             | X                     | ?          | ?                                                    | X                                                  | ?     | ?                                                                           | ?       | ?          | ?          |                                 | ?                        |
 | **Spell checking**             | ?                             | ?                             | ?                                                                          |                                                              | ?                             | X                     | ?          | ?                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Add words to dictionary        | ?                             | ?                             | ?                                                                          | browser                                                      | ?                             | X                     | ?          |                                                      | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | Syntax aware (22)              | ?                             | ?                             | ?                                                                          |                                                              | ?                             | X                     | ?          |                                                      | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 | **Local**                      |                               |                               |                                                                            |                                                              |                               |                       |            |                                                      |                                                    |       |                                                                             |         |            |            |                                 | ?                        |
-| Git access                     | X                             | ?                             | X                                                                          | X                                                            | X                             | ?                     | ?          | (9)                                                  | ?                                                  |       |                                                                             | ?       | ?          | ?          |                                 | ?                        |
-| Local compilation              | X                             | ?                             |                                                                            | PDF compiler closed source                                   | X                             | X                     | ?          | ? In theory yes, in practice versions not specified. | ?                                                  | ?     |                                                                             | ?       | ?          | ?          |                                 | ?                        |
-| **Metrics**                    |                               |                               |                                                                            |                                                              |                               |                       |            |                                                      |                                                    |       |                                                                             |         |            |            |                                 | ?                        |
-| Developers                     | 230 employees                 | 5                             | 1                                                                          | ?                                                            | ?                             | 2                     | ?          | [3](https://www.authorea.com/contact)                | [2](http://www.crunchbase.com/organization/beegit) | 1     | [9](http://www.crunchbase.com/organization/inkling-inc) (multiple projects) | ?       | ?          | ?          | ?                               | 3                        |
+| No local install required (24) | X                             | X                             | X                                                                          | X                                                            |                               | X                     | X          | X                                                    | X                                                  | X     | X                                                                           | X       | X          | X          | X                               | ?                        |
+| Git access                     | X                             | X                             | X                                                                          | X                                                            | X                             | ?                     | ?          | [W](https://www.authorea.com/issues/266) (9)         | ?                                                  |       |                                                                             | ?       | ?          | ?          |                                 | ?                        |
+| Local compilation              |                               |                               |                                                                            | PDF compiler closed source                                   | X                             | X                     | ?          | ? In theory yes, in practice versions not specified. | ?                                                  | ?     |                                                                             | ?       | ?          | ?          |                                 | ?                        |
+| **Meta**                       |                               |                               |                                                                            |                                                              |                               |                       |            |                                                      |                                                    |       |                                                                             |         |            |            |                                 | ?                        |
+| Developers                     | 230 employees                 | 5                             | 1                                                                          | >= 2 (27)                                                    | ?                             | 2                     | ?          | [3](https://www.authorea.com/contact)                | [2](http://www.crunchbase.com/organization/beegit) | 1     | [9](http://www.crunchbase.com/organization/inkling-inc) (multiple projects) | ?       | ?          | ?          | ?                               | 3                        |
 | Investments                    | 100M                          | ?                             | ?                                                                          | ?                                                            | ?                             | ?                     | ?          | 650k                                                 |                                                    | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | 8M                       |
 | Users signed up                | 3M                            | ~ 1k on SaaS (9)              | ?                                                                          | ?                                                            | ?                             | >= 250 (public email) | >=80k      | ?                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | 1M                       |
+| Project's issue tracker (29)   | ?                             | [GitLab Issues][]             | [Penflip Issues][]                                                         | [Atlas Issues][]                                             | ?                             | ?                     | ?          | [Authorea Issues][]                                  | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
 {:#table .data-table}
 
 <!--
-| Template line                  | ?                             | ?                             | ?                                                                          | ?                                                            | ?                             | ?                             | ?                     | ?          | ?                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               | ?                        |
+| Template line                  | ?                             | ?                             | ?                                                                          | ?                                                            | ?                             | ?                             | ?                     | ?          | ?                                                    | ?                                                  | ?     | ?                                                                           | ?       | ?          | ?          | ?                               |
 -->
 
 Legend:
 
 - empty box: no, 0
 - `X`: yes
+- `l`: limited: not really no, but not really yes either
 - `?`: not yet determined
 - `w`: WONTFIX
 - `a`: accepted by developers
@@ -69,46 +73,86 @@ Legend:
 
 Notes:
 
-- (1) All major browsers: Firefox, Chrome, IE, Safari, Opera.
-- (2) Like on GitHub: `user/project`, no random IDs.
-- (3) Author must explicitly share a random URL. Inconvenient.
-- (4) Similar business model to GitHub:
+-   (1) All major browsers: Firefox, Chrome, IE, Safari, Opera.
+
+-   (2) Like on GitHub: `user/project`, no random IDs.
+
+-   (3) Author must explicitly share a random URL. Inconvenient.
+
+-   (4) Similar business model to GitHub:
     if the project is public you get all features for free.
     Only applies to services, not open source libraries
-- (5) Only keeps one Git repo per project:
+-   (5) Only keeps one Git repo per project:
     forks are dealt into branches named with the username of their authors.
-- (6) Possibly unpredictable URLs of form: `name_123`,
+
+-   (6) Possibly unpredictable URLs of form: `name_123`,
     where the numeric ID is only used if its not the first time a name is used.
-- (7) Generate a single output file form multiple markdown LaTeX files.
-- (8) When pressing the save button.
-- (9) Possible to export the Git repository, but no clone or push.
-- (10) Possible to put source files in subdirectories from web interface.
-- (11) Paid features only affect local installations.
-- (12) Except for... Markdown, but it does not matter as that should be done from the viewer!
+
+-   (7) Generate a single output file form multiple markdown LaTeX files.
+
+-   (8) When pressing the save button.
+
+-   (9) Possible to export the Git repository, but no clone or push.
+
+-   (10) Possible to put source files in subdirectories from web interface.
+
+-   (11) Paid features only affect local installations.
+
+-   (12) Except for... Markdown, but it does not matter as that should be done from the viewer!
     <http://feedback.gitlab.com/forums/176466-general/suggestions/5855625-show-both-diff-and-preview-when-editing-markdown-f>
-- (13) Inferred if closed source.
-- (14) Negation because it is an anti-feature =)
-- (15) Can someone infer the compiler? Is it Marked, Showdown or markdown-js?
+
+-   (13) Inferred if closed source.
+
+-   (14) Negation because it is an anti-feature =)
+
+-   (15) Can someone infer the compiler? Is it Marked, Showdown or markdown-js?
     Deducing from [collaborator's GitHub stars](https://github.com/stars/kciccarello),
     Node.js based through [NodeGit](https://github.com/nodegit/nodegit).
     and builtwith.com says Express which is coherent with the Node.js hypothesis.
-- (16) Looks possible, but I didn't manage it, maybe due to minor bug?
-- (17) Like GitHub Stars.
-- (18) Like Stack Overflow rep.
-- (19) Kind of if you count GH pages.
-- (20) Some websites only allow certain people to contribute content, e.g., teachers of known universities,
+
+-   (16) Looks possible, but I didn't manage it, maybe due to minor bug?
+
+-   (17) Like GitHub Stars.
+
+-   (18) Like Stack Overflow rep.
+
+-   (19) Kind of if you count GH pages.
+
+-   (20) Some websites only allow certain people to contribute content, e.g., teachers of known universities,
     in an attempt to have only good material. This is a huge entry bottleneck,
     and the curation it provides can be achieved by upvote metrics instead.
-- (21) A commit that changes multiple files.
+
+-   (21) A commit that changes multiple files.
     Having `merge --squash` is almost a full workaround for this for merge request based work flows.
     <http://feedback.gitlab.com/forums/176466-general/suggestions/5662794-provide-squash-option-when-merging-merge-requests>
-- (22) Spell checking that only checks in syntax blocks that need to be checked, e.g.,
+
+-   (22) Spell checking that only checks in syntax blocks that need to be checked, e.g.,
     not inside Markdown code blocks, nor LaTeX macro names. Currently not trivial.
     Request on ACE: <https://github.com/ajaxorg/ace/issues/2107>.
-- (23) TODO: only compiler and editor, but not web interface?
-- (24) You don't need to install anything to get it working: it is all done on the browser.
-- (25) Signed out users can view outputs and source code.
-- (26) Like GitHub and Atlas
+
+-   (23) TODO: only compiler and editor, but not web interface?
+
+-   (24) You don't need to install anything to get it working: it is all done on the browser.
+
+-   (25) Signed out users can view outputs and source code.
+
+-   (26) Like GitHub and Atlas
+
+-   (27) Hard to estimate since they are a big organization with multiple projects.
+
+    But the following people are strongly involved in coding:
+
+    - @sandersk: O'Reilly publishing CTO, <https://www.linkedin.com/pub/sanders-kleinfeld/86/478/964>
+    - @runemadsen: <https://github.com/runemadsen>
+    - @sklise: <https://github.com/sklise>
+
+-   (28) Issues only appear on the tracker after being reviewed.
+
+-   (29) Many projects strategically treat issues privately to give less information to competition.
+    Security disclosures are probably a secondary though since users capable of finding them
+    know better than to publish those openly.
+
+-   (30) *Slightly* subjective... but very important.
 
 ## Beegit
 
@@ -142,12 +186,26 @@ AKA vendor lock-in.
 
 ## O'Reilly Atlas
 
-Their editor is a highly specialized and advanced WYSIWYG front-end for HTMLBook! It implements WYSIWYG nesting, IDs and references, 
+Their editor is a highly specialized and advanced WYSIWYG front-end for HTMLBook!
+It implements WYSIWYG nesting, IDs and references.
 
 Screenshots at: <https://github.com/booktree/files/tree/abffff03d19a03b6ab0101c2063415ffbf61598d/atlas>
+
+## Authorea
+
+Impressive feature: LaTeX HTML preview on editor. But I wonder how robust that can be.
+
+Offers a `.tex` and a `.git` download, but no automatic way to convert
+the `.git` inputs into the generated `.tex` which depends on how you exported it.
+So strictly speaking no local compile support, although it is easy to figure out the missing steps.
 
 ## Reviewers
 
 We should watch the author of this blog and his comments on Markdown editors: <http://www.bitfalls.com/2014/05/the-state-of-markdown-editors-may-2014.html>
 
-[gl-resolve]: http://feedback.gitlab.com/forums/176466-general/suggestions/5590496-resolve-any-merge-request-conflict-from-the-web-in
+[authorea issues]: https://www.authorea.com/issues
+[atlas issues]:    http://forum.atlas.oreilly.com/
+[gitlab issues]:   http://feedback.gitlab.com
+[gl-side]:         http://feedback.gitlab.com/forums/176466-general/suggestions/5799911-preview-as-you-type-for-markdown-blob-file-edit
+[gl-resolve]:      http://feedback.gitlab.com/forums/176466-general/suggestions/5590496-resolve-any-merge-request-conflict-from-the-web-in
+[penflip issues]:  https://www.penflip.com/Penflip/help/discussions
